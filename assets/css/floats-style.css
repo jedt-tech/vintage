@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'DM Serif Text', serif;*/
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.menu {
+	height: 50px;
+	/*background-color: #B2D6FF*/
+	background-color: #efb6a3;
+	text-align: center;
+}
+
+.sidebar {
+	height: 100px;
+	width: 100px;
+	/*background-color: #F09A9D;*/
+	background-color: #bfb669;
+	float: left;
+}
+
+.content {
+	height: 500px;
+	width: 500px;
+	background-color: #ddb4a7;
+	float: right;
+	padding: 20px;
+	overflow: scroll;
+}
+
+.footer {
+	/*clear: both;*/
+	/*height: 200px;*/
+	border: 5px solid brown;
+	background-color: #d2b6ad;
+	float: right;
+}
+
+/*.clear {
+	content: "";
+	clear: both;
+	display: table;
+}*/
+
+/*.clear {
+	overflow: auto;
+}*/
+
+.column {
+	background-color: #e8cdc4;
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.5%;
+	float: left;
+	overflow: scroll;
+}
+
+/*.clear::after {
+	content: " ";
+	clear: both;
+	display: block;
+}*/
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	background-image: url(https://static1.squarespace.com/static/508da03be4b0d28844ddf21c/t/5c36069b032be43c62c8ccc0/1547044541960/Alfredo-Lim.jpg?format=500w);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+	background-color: #e1beb2;
+}
+
+body {
+	background-image: url(https://victorfernandorocampo.files.wordpress.com/2014/05/exz0.jpg);
+}
